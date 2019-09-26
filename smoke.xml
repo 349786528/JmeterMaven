@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="hyq" preserve-order="true" verbose="10">
+		<classes>
+			<class name="com.hyq.login.HyqApp_Login_testname"></class>
+			<class name="com.hyq.login.HyqApp_Login_test"></class>
+			<class name="com.hyq.login.HyqApp_Login_testlogin"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestNoticeLink"></class>
+			<class name="com.hyq.index.HyqApp_Index_testInternet"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestNotice"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestApply"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestApply_taxi"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestApply_UsePer"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestApply_ProCar"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestApply_Employee"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestApply_CarEnter"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestApply_Entertain"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestApply_Notice"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestApply_Visitor"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestApply_ReportTable"></class>
+			<class name="com.hyq.index.HyqApp_Index_ReportTable_Man"></class>
+			<class name="com.hyq.index.HyqApp_Index_ReportTable_VisitorMan"></class>
+			<class name="com.hyq.index.HyqApp_Index_ReportTable_Meeting"></class>
+			<class name="com.hyq.index.HyqApp_Index_ReportTable_Canteen"></class>
+			<class name="com.hyq.index.HyqApp_Index_ReportTable_Internet"></class>
+			<class name="com.hyq.index.HyqApp_Index_ReportTable_TwoNumber"></class>
+			<class name="com.hyq.index.HyqApp_Index_ReportTable_ThreeNumber"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestBanner"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestSaoYiSao"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestSystemMessage"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestWaitExamination"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestMyExamination"></class>
+			<class name="com.hyq.index.HyqApp_Index_Meeting"></class>
+			<class name="com.hyq.index.HyqApp_Index_TestRepair"></class>
+			<class name="com.hyq.index.HyqApp_Index_Message"></class>
+			<class name="com.hyq.index.HyqApp_Index_ParkService"></class>
+			<class name="com.hyq.parkservice.HyqApp_ParkService_Kitchen"></class>
+            <class name="com.hyq.parkservice.HyqApp_ParkService_DiningRoom"></class>
+            <class name="com.hyq.parkservice.HyqApp_ParkService_ZeroOrder"></class>
+            <class name="com.hyq.parkservice.HyqApp_ParkService_WeekMenu"></class>
+            <class name="com.hyq.parkservice.HyqApp_ParkService_MaterialPublicity"></class>
+            <class name="com.hyq.parkservice.HyqApp_ParkService_FeedBack"></class>
+            <class name="com.hyq.parkservice.HyqApp_ParkService_BusReserve"></class>
+            <class name="com.hyq.parkservice.HyqApp_ParkService_PostReceived"></class>
+            <class name="com.hyq.parkservice.HyqApp_ParkService_Hair"></class>
+            <class name="com.hyq.my.HyqApp_My_ReserveRecord"></class>
+            <class name="com.hyq.my.HyqApp_My_OrderManager"></class>
+            <class name="com.hyq.my.HyqApp_My_VoteManager"></class>
+            <class name="com.hyq.my.HyqApp_My_AddressManager"></class>
+            <class name="com.hyq.my.HyqApp_My_Feedback"></class>
+            <class name="com.hyq.my.HyqApp_My_AboutUs"></class>
+            
+            
+            
+            
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+</suite> 
